@@ -9,7 +9,7 @@ $(document).ready(function () {
         $("button").prop("disabled", true);
     }
 
-    var encodedKey = encodeURIComponent("AIzaSyDGvspAuYLNKpawQ-OYCwsrIOW8Qo5GPRs");
+    var encodedKey = encodeURIComponent("GOOGLE_API_KEY");
 
     function getNearbyCabsLocationData() {
         if (navigator.geolocation) {
